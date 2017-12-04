@@ -1,0 +1,549 @@
+RECORDED ON 8/09/17
+AT 16:11
+PRE-ALPHA BUILD
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: safari
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: opera
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: LP
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: KeyEvent
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: module
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: LPPlatform
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+phaser.min.js:3    Phaser CE v2.8.0 | Pixi.js | WebGL | WebAudio     http://phaser.io â™¥â™¥â™¥
+/favicon.ico Failed to load resource: the server responded with a status of 404 (Not Found)
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: safari
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: opera
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: LP
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: KeyEvent
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: module
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12 undefined global: LPPlatform
+get @ chrome-extension://ngkhgikojglcgnckopipfdajaifmmnnc/onloadwff.js:12
+main.js:469 INITING
+main.js:544 Array(0)
+main.js:495 ITERATION:1
+main.js:469 INITING
+main.js:544 (2) [ClockBlocker, ClockBlocker]
+SortedMap.js:354 FIREBASE WARNING: Exception was thrown by user callback. TypeError: Cannot read property '5' of undefined
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:376:75
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831
+    at fc (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:327:165)
+    at bf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:392:215)
+    at cf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:391:403)
+    at Qg.g.Jb (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:483:440)
+    at U.g.set (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:520:320)
+    at U.g.remove (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:523:136)
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:379:144
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831 
+J @ SortedMap.js:354
+(anonymous) @ ChildrenNode.js:203
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+ChildrenNode.js:211 Uncaught TypeError: Cannot read property '5' of undefined
+    at main.js:376
+    at Repo_transaction.js:295
+    at fc (ChildrenNode.js:197)
+    at bf (WebSocketConnection.js:320)
+    at cf (WebSocketConnection.js:225)
+    at Qg.g.Jb (Query.js:436)
+    at U.g.set (firebase-storage.js:4528)
+    at U.g.remove (firebase-storage.js:4528)
+    at main.js:379
+    at Repo_transaction.js:295
+(anonymous) @ main.js:376
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+SortedMap.js:354 FIREBASE WARNING: Exception was thrown by user callback. TypeError: Cannot read property '4' of undefined
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:376:75
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831
+    at fc (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:327:165)
+    at bf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:392:215)
+    at cf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:391:403)
+    at Qg.g.Jb (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:483:440)
+    at U.g.set (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:520:320)
+    at U.g.remove (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:523:136)
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:379:144
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831 
+J @ SortedMap.js:354
+(anonymous) @ ChildrenNode.js:203
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+ChildrenNode.js:211 Uncaught TypeError: Cannot read property '4' of undefined
+    at main.js:376
+    at Repo_transaction.js:295
+    at fc (ChildrenNode.js:197)
+    at bf (WebSocketConnection.js:320)
+    at cf (WebSocketConnection.js:225)
+    at Qg.g.Jb (Query.js:436)
+    at U.g.set (firebase-storage.js:4528)
+    at U.g.remove (firebase-storage.js:4528)
+    at main.js:379
+    at Repo_transaction.js:295
+(anonymous) @ main.js:376
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+SortedMap.js:354 FIREBASE WARNING: Exception was thrown by user callback. TypeError: Cannot read property '3' of undefined
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:376:75
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831
+    at fc (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:327:165)
+    at bf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:392:215)
+    at cf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:391:403)
+    at Qg.g.Jb (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:483:440)
+    at U.g.set (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:520:320)
+    at U.g.remove (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:523:136)
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:379:144
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831 
+J @ SortedMap.js:354
+(anonymous) @ ChildrenNode.js:203
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+ChildrenNode.js:211 Uncaught TypeError: Cannot read property '3' of undefined
+    at main.js:376
+    at Repo_transaction.js:295
+    at fc (ChildrenNode.js:197)
+    at bf (WebSocketConnection.js:320)
+    at cf (WebSocketConnection.js:225)
+    at Qg.g.Jb (Query.js:436)
+    at U.g.set (firebase-storage.js:4528)
+    at U.g.remove (firebase-storage.js:4528)
+    at main.js:379
+    at Repo_transaction.js:295
+(anonymous) @ main.js:376
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+SortedMap.js:354 FIREBASE WARNING: Exception was thrown by user callback. TypeError: Cannot read property '2' of undefined
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:376:75
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831
+    at fc (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:327:165)
+    at bf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:392:215)
+    at cf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:391:403)
+    at Qg.g.Jb (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:483:440)
+    at U.g.set (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:520:320)
+    at U.g.remove (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:523:136)
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:379:144
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831 
+J @ SortedMap.js:354
+(anonymous) @ ChildrenNode.js:203
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+ChildrenNode.js:211 Uncaught TypeError: Cannot read property '2' of undefined
+    at main.js:376
+    at Repo_transaction.js:295
+    at fc (ChildrenNode.js:197)
+    at bf (WebSocketConnection.js:320)
+    at cf (WebSocketConnection.js:225)
+    at Qg.g.Jb (Query.js:436)
+    at U.g.set (firebase-storage.js:4528)
+    at U.g.remove (firebase-storage.js:4528)
+    at main.js:379
+    at Repo_transaction.js:295
+(anonymous) @ main.js:376
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Jb @ Query.js:436
+g.set @ firebase-storage.js:4528
+g.remove @ firebase-storage.js:4528
+(anonymous) @ main.js:379
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+SortedMap.js:354 FIREBASE WARNING: Exception was thrown by user callback. TypeError: Cannot read property '1' of undefined
+    at https://fun-side-projects-2-tyly04.c9users.io/clock-blockers-prototype/main.js:376:75
+    at https://www.gstatic.com/firebasejs/4.1.2/firebase.js:463:831
+    at fc (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:327:165)
+    at bf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:392:215)
+    at cf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:391:403)
+    at Qg.g.Gb (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:482:287)
+    at Ag.g.wd (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:446:251)
+    at og.wd (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:436:364)
+    at Yf.Xf (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:434:281)
+    at ag (https://www.gstatic.com/firebasejs/4.1.2/firebase.js:418:464) 
+J @ SortedMap.js:354
+(anonymous) @ ChildrenNode.js:203
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+ChildrenNode.js:211 Uncaught TypeError: Cannot read property '1' of undefined
+    at main.js:376
+    at Repo_transaction.js:295
+    at fc (ChildrenNode.js:197)
+    at bf (WebSocketConnection.js:320)
+    at cf (WebSocketConnection.js:225)
+    at Qg.g.Gb (Query.js:408)
+    at Ag.g.wd (SyncTree.js:354)
+    at og.wd (DataSnapshot.js:217)
+    at Yf.Xf (DataSnapshot.js:142)
+    at ag (PersistentConnection.js:465)
+(anonymous) @ main.js:376
+(anonymous) @ Repo_transaction.js:295
+fc @ ChildrenNode.js:197
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385
+setTimeout (async)
+fc @ ChildrenNode.js:199
+bf @ WebSocketConnection.js:320
+cf @ WebSocketConnection.js:225
+g.Gb @ Query.js:408
+g.wd @ SyncTree.js:354
+og.wd @ DataSnapshot.js:217
+(anonymous) @ DataSnapshot.js:142
+ag @ PersistentConnection.js:465
+Ia.onmessage @ PersistentConnection.js:385

@@ -1,0 +1,4 @@
+The original video: https://www.youtube.com/watch?v=CBawCe6du3w
+has a new round begin roughly every 38 seconds. Will tweak.
+Check for movement every 60 ms. 38 * 60 = 2280 items in an array. (Need to recount)
+Need to figure out how to measure bullet shots.

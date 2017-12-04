@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="phaser.min.js"></script>
+        <script src="engine.js"></script>
+        <script src="main.js"></script>
+        <script src="https://unpkg.com/sweetalert2@7.0.6/dist/sweetalert2.all.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyAEfyDgiJsLmCuJx1nb_hxGYJKwnwgNneI",
+            authDomain: "clockblocked-proto.firebaseapp.com",
+            databaseURL: "https://clockblocked-proto.firebaseio.com",
+            projectId: "clockblocked-proto",
+            storageBucket: "clockblocked-proto.appspot.com",
+            messagingSenderId: "34104078507"
+          };
+          firebase.initializeApp(config);
+        </script>
+    </head>
+    <body>
+        <div id="game">
+            <img src="./assets/google-signin/1x/btn_google_signin_dark_focus_web.png" id="signIn"/>
+        </div>
+        <style>
+            body{
+                overflow: hidden;
+                background-color: black;
+                margin: 0;
+            }
+            button{
+                background: #00aadd;
+                border: none;
+                top: 59%;
+                left: 50%;
+                position: absolute;
+                margin-top: -50px;
+                margin-left: -40px;
+                padding: 10px;
+            }
+            #begin{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -30px;
+            }
+            
+            img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -100px;
+            }
+        </style>
+    </body>
+</html>
