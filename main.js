@@ -23,7 +23,7 @@ function signIn(){
         // The firebase.auth.AuthCredential type that was used.
         var credential = error.credential;
         // ...
-        swal.alert("Error Code " + errorCode + "", "The error reads: \'" + errorMessage + "\' \n Because of this, multiplayer functionality is disabled. Please reload the page and try again, or try to resolve the issue.", "error");
+        bootbox.alert("Error Code " + errorCode + "", "The error reads: \'" + errorMessage + "\' \n Because of this, multiplayer functionality is disabled. Please reload the page and try again, or try to resolve the issue.", "error");
     });
     document.getElementById("game").removeChild(document.getElementById("signIn"));
     document.getElementById("game").innerHTML += "<button id=\"begin\">Start</button>";
@@ -296,55 +296,62 @@ function startGame(){
             });
         },
         createNewServer: function(){
-            var namePrompt = window.prompt("Please enter in the name of the server.");
-            firebase.database().ref('servers').once('value').then(function(dat){
-                if(dat.val()){
-                if(dat.val()[namePrompt]){
-                    window.alert("Name already taken.");
-                    this.createNewServer();
-                } else {
-                    firebase.database().ref('servers/' + namePrompt).set({
-                        blueTeam: {
-                            pos: {
-                                currentX: 0,
-                                currentY: 0
+            bootbox.prompt({
+                title: "Please enter in the name of the server."
+            },
+                function(result){
+                    if(result !== null){
+                        var namePrompt = result;
+                        firebase.database().ref('servers').once('value').then(function(dat){
+                        if(dat.val()){
+                            if(dat.val()[namePrompt]){
+                                bootbox.alert("Name already taken.");
+                                this.createNewServer();
+                            } else {
+                                firebase.database().ref('servers/' + namePrompt).set({
+                                    blueTeam: {
+                                        pos: {
+                                            currentX: 0,
+                                            currentY: 0
+                                        }
+                                    },
+                                    redTeam: {
+                                        pos: {
+                                            currentX: 0,
+                                            currentY: 0
+                                        }
+                                    },
+                                    currentPlayers: 0,
+                                    justCreated: true,
+                                    name: namePrompt
+                                });
+                                bootbox.alert("Server created successfully.");
+                                selectScreen.prototype.joinServer(namePrompt);
                             }
-                        },
-                        redTeam: {
-                            pos: {
-                                currentX: 0,
-                                currentY: 0
-                            }
-                        },
-                        currentPlayers: 0,
-                        justCreated: true,
-                        name: namePrompt
+                        } else {
+                            firebase.database().ref('servers').set("temp");
+                            firebase.database().ref('servers/' + namePrompt).set({
+                                blueTeam: {
+                                    pos: {
+                                        currentX: 0,
+                                        currentY: 0
+                                    }
+                                },
+                                redTeam: {
+                                    pos: {
+                                        currentX: 0,
+                                        currentY: 0
+                                    }
+                                },
+                                currentPlayers: 0,
+                                justCreated: true,
+                                name: namePrompt
+                            });
+                            bootbox.alert("Server created successfully.");
+                            selectScreen.prototype.joinServer(namePrompt);
+                        }
                     });
-                    window.alert("Server created successfully.");
-                    selectScreen.prototype.joinServer(namePrompt);
-                }
-                } else {
-                    firebase.database().ref('servers').set("temp");
-                    firebase.database().ref('servers/' + namePrompt).set({
-                        blueTeam: {
-                            pos: {
-                                currentX: 0,
-                                currentY: 0
-                            }
-                        },
-                        redTeam: {
-                            pos: {
-                                currentX: 0,
-                                currentY: 0
-                            }
-                        },
-                        currentPlayers: 0,
-                        justCreated: true,
-                        name: namePrompt
-                    });
-                    window.alert("Server created successfully.");
-                    selectScreen.prototype.joinServer(namePrompt);
-                }
+                    }
             });
         },
         joinServer: function(serverName){
@@ -414,8 +421,8 @@ function startGame(){
                 console.log(prevPlayers);
                 console.log(game.currentServer.currentPlayers);
                 if(prevPlayers !== game.currentServer.currentPlayers){
-                    firebase.database.ref('servers/' + game.currentServer.name + "/currentPlayers").onDisconnect().off();
-                    firebase.database.ref('servers/' + game.currentServer.name + "/currentPlayers").onDisconnect().set(game.currentServer.currentPlayers);
+                    firebase.database().ref('servers/' + game.currentServer.name + "/currentPlayers").onDisconnect().off();
+                    firebase.database().ref('servers/' + game.currentServer.name + "/currentPlayers").onDisconnect().set(game.currentServer.currentPlayers);
                 }
                 prevPlayers = game.currentServer.currentPlayers;
             });
@@ -425,7 +432,7 @@ function startGame(){
             var teams = ["blueTeam", "redTeam"];
             if(game.team > 1){
                 //TODO: Replace
-                window.alert("Match already full. A spectator mode is coming, rest assured.");
+                bootbox.alert("Match already full. A spectator mode is coming, rest assured.");
                 game.state.start("selectScreen");
             }
             game.enemyTeam = game.team === 0 ? "redTeam" : "blueTeam";
@@ -534,7 +541,7 @@ function startGame(){
                 clearInterval(interval);
                 firebase.database().ref('servers/' + game.currentServer.name + "/" + game.team + "/blocker" + game.currentIteration).set({pos: game.player.currentPosArr, bulletsArray: game.player.bulletsArr});
                 if(game.currentIteration === 4){
-                    window.alert("GAME OVER.");
+                    bootbox.alert("GAME OVER.");
                     firebase.database().ref('servers/' + game.currentServer.name).off('value');
                     firebase.database().ref('servers/' + game.currentServer.name + "/currentPlayers").set(game.currentServer.currentPlayers - 1);
                     game.state.start("selectScreen");

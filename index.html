@@ -4,7 +4,10 @@
         <script src="phaser.min.js"></script>
         <script src="engine.js"></script>
         <script src="main.js"></script>
-        <script src="sweetalert2.min.js"></script>
+        <script src="jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="./bootstrap.css"/>
+        <script src="bootbox.min.js"></script>
+        <script src="bootstrap.min.js"></script>
         <script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
         <script>
           // Initialize Firebase
@@ -18,19 +21,13 @@
           };
           firebase.initializeApp(config);
         </script>
-        <link ref="stylesheet" href="./sweetalert2.min.css"/>
-    </head>
-    <body>
-        <div id="game">
-            <img src="./assets/google-signin/1x/btn_google_signin_dark_focus_web.png" id="signIn"/>
-        </div>
         <style>
             body{
                 overflow: hidden;
                 background-color: black;
                 margin: 0;
             }
-            button{
+            #begin{
                 background: #00aadd;
                 border: none;
                 top: 59%;
@@ -40,14 +37,6 @@
                 margin-left: -40px;
                 padding: 10px;
             }
-            #begin{
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                margin-top: -50px;
-                margin-left: -30px;
-            }
-            
             img{
                 position: absolute;
                 top: 50%;
@@ -56,5 +45,10 @@
                 margin-left: -100px;
             }
         </style>
+    </head>
+    <body>
+        <div id="game">
+            <img src="./assets/google-signin/1x/btn_google_signin_dark_focus_web.png" id="signIn"/>
+        </div>
     </body>
 </html>
